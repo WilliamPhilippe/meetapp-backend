@@ -1,0 +1,18 @@
+{
+  "name": "meetapp-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/WilliamPhilippe/meetapp-backend.git",
+  "author": "William Philippe <wplb@ic.ufal.br>",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.19.2",
+    "sucrase": "^3.10.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  }
+}
